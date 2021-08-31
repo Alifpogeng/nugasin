@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
+.displayq{
+  display: inline-block;
+}
+section#counter-stats {
+	display: inline-block;
+	justify-content: center;
+	 text-align: center;
+}
+
+.stats {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+	color:white;
+}
+.stats h5 {
+  font-size: 40px;
+}
+.jark{
+    height: 150px;
+}
+.pos{
+    text-align: left;
+}
+
+@media (max-width: 375px) {
+  .stats {
+    text-align: left;
+    vertical-align: middle;
+    font-size: 1px;
+    font-weight:400;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+  }
+  section#counter-stats p {
+    text-align: left;
+    font-size: 1px;
+    float: left;
+  }
+}
+
+/*/ end count stats /*/
+@media (max-width: 575.98px) {
+  /*Android Pages!*/
+
+  .stats {
+    text-align: left;
+    vertical-align: middle;
+    font-size: 15px;
+    font-weight:400;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+  }
+  section#counter-stats p {
+    text-align: left;
+    font-size: 15px;
+    float: left;
+  }
+ 
+  .pos{
+      text-align: left;
+  }
+  .jark{
+    width: 10%;
+    height: 120px;
+  }
+
+}
+
+@media (min-width: 90px) and (max-width: 759px){
+  .order-12  .displayq{
+    display:flex;
+    margin-top:7%;
+  }
+  .order-12   section#counter-stats {
+    display:flex;
+    justify-content: left;
+     text-align: left;
+  }
+  .carousel-item { 
+    height: 700px;
+  }
+
+}
+@media (max-width: 1024px) {
+    /*Small Devices!*/
+    
+    .jark{
+      width: 10%;
+      height: 120px;
+    }
+    .stats {
+      font-size: 30px;
+      font-weight: 700;
+  
+    }
+    section#counter-stats p {
+      font-size: 12px;
+    }
+
+    
+  }
+ @media (max-width: 991.98px) {
+   /*Tab Pages!*/
+   .displayq{
+    display: inline-block;
+  }
+  section#counter-stats {
+    display: inline-block;
+  }
+  .jark{
+    width: 10%;
+    height: 90px;
+  }
+
+ 
+ 
+ }
+

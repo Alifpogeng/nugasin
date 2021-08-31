@@ -1,0 +1,225 @@
+body{
+    height: auto;
+    margin:0 auto;
+    padding:0px;
+    max-width: 2500px;
+    
+}
+
+.myimgs{
+  width: auto;
+  height: auto;
+  margin-left:25px;
+}
+
+.mybox{
+  padding-bottom: 100px;
+}
+.mybox h3{
+  font-weight: 700;
+}
+.text-muted{
+  line-height: 3px;
+  font-size: 0.9rem;
+}
+
+.logoku{
+    width: 30%;
+}
+.carousel-item {
+    min-height: 300px;
+    max-width: 100%;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  
+  }
+  #carouselExampleIndicators{
+    padding:0px;
+  }
+  .navbar{
+    z-index: 1090;
+    position: absolute;
+    margin:0 auto;
+    width: 90%;
+    max-width: 2500px;
+    border-radius: 15px !important;
+  }
+  .container{
+    margin:0 auto;
+    z-index: 1;
+
+  }
+  .contenty{
+    position: relative;
+      z-index: 99999;
+  }
+  nav .navbar-nav li a{
+    color: #0275d8 !important;
+    }
+    .search {
+        width: 100%;
+        position: relative;
+        display: flex;
+      }
+      
+      .searchTerm {
+        width: 100%;
+        border: 2px solid #b2bec3 ;
+        border-right: none;
+        padding: 5px;
+        height: 36px;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+        color: #9DBFAF;
+      }
+      
+      .searchTerm:focus{
+        color: #0275d8 ;
+      }
+      
+      .searchButton {
+        width: 40px;
+        height: 36px;
+        border: 1px solid #0275d8 ;
+        background: #0275d8 ;
+        text-align: center;
+        color: #fff;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        font-size: 20px;
+      }
+      
+      /*Resize the wrap to see the search bar change!*/
+      .wrap{
+        width: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+      }
+.bordercontain{
+    border:0px solid;
+    width: 100%;
+    height: auto;
+    margin:0 auto;
+    background-color: white;
+    padding:15px;
+    border-radius:5px;
+    z-index: 99999;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    max-width: 2500px;
+    border-radius: 10px;
+}
+.container-text{
+position: absolute;
+top:30%;
+color:white;
+width: 100%;
+float:left;
+}
+.container-text .mytext{
+    text-align: left;
+    float: left;
+    max-width:25rem;
+    font-size: 1.1rem;
+}
+.container-text h1 {
+  font-size: 3.5rem;
+}
+.vector{
+  width: 100%;
+}
+.col {
+  width: 380px;
+}
+@media (max-width: 575.98px) {
+  /*Android Pages!*/
+  .carousel-item .vector img{
+    margin: 0 auto;
+    display: inline-block;
+  }
+  .wrap{
+    width: 80%;
+  }
+  .col-sm-4{
+    width: 100%;
+  }
+  .relative-top{
+    margin-top:-10%;
+  }
+
+.logoku{
+width: 40%;
+}
+.navbar-toggler{
+  padding:5px;
+}
+.navbar-toggler-icon{
+font-size: 12px;
+}
+.carousel-item {
+  height: 800px;
+}
+.container-text{
+  top:20%;
+  line-height: 15px;
+}
+.container-text h1{
+  font-size: 1.4rem;
+}
+.container-text h3{
+  font-size: 1.1rem;
+}
+.container-text .mytext{
+  font-size: 0.rem;
+}
+}
+
+@media (max-width: 767.98px) { 
+  .carousel-item {
+    height: 600px;
+
+  }
+  .container-text{
+    top:27%;
+    line-height: 15px;
+  }
+  .vector{
+    width: 60%;
+  }
+  .container-text h1{
+    font-size: 1.4rem;
+  }
+  .container-text h3{
+    font-size: 1.1rem;
+  }
+  .container-text .mytext{
+    font-size: 0.rem;
+  }
+ }
+ @media (max-width: 1024) {
+ }
+ @media (max-width: 991.98px) {
+  .jarkq {
+    width: 200%;
+  }
+  .container-text .mytext{
+    max-width:25rem;
+    font-size: 1.1rem;
+}
+.container-text h1 {
+  font-size: 1.8rem;
+}
+.container-text h3 {
+  font-size: 1.3rem;
+}
+ }
+ @media (min-width: 90px) and (max-width: 759px)
+ {
+  .carousel-item {
+   height: 0px;
+  }
+ }
