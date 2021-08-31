@@ -1,10 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/style.css" />
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/anu.css" />
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/card.css" />
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/footer.css" />
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/news.css" />
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <style>
+        .checked {
+            color: #0275d8;
+        }
+
+        .fa-whatsapp {
+            position: fixed;
+            z-index: 9999;
+            font-size: 48px;
+            color: white;
+            background-color: #25D366;
+            border-radius: 50%;
+            padding: 5px;
+        }
+
+        .waclas {
+            position: fixed;
+            z-index: 9999;
+            top: 90%;
+        }
+
+        @media (max-width: 575.98px) {
+            .waclas {
+                position: fixed;
+                z-index: 9999;
+                top: 90%;
+                left: 70%;
+            }
+        }
+    </style>
+</head>
 <div class="container mycontais" style="padding:50px 0px;">
 	<section id="content">
 		<div class="content-wrap p-0">
 			<div id="homeProjects" class="section nobg m-0">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-4">
+						<div class="col-sm-3">
 							<div class="title">
 								<h4>Projek Baru</h4>
 
@@ -21,7 +71,7 @@
 
 											<p>Pemilik <b>yournextbos</b></p>
 
-											<p>Bayaran <b>IDR. 900.000-1.500.000</b></p>
+											<p>Bayaran <b>IDR. 900.000</b></p>
 
 											<p>Tenggat Waktu <b>9 hari</b></p>
 										</div>
@@ -37,7 +87,7 @@
 
 											<p>Pemilik <b>anesnes</b></p>
 
-											<p>Bayaran <b>IDR. 100.000-350.000</b></p>
+											<p>Bayaran <b>IDR. 100.000</b></p>
 
 											<p>Tenggat Waktu <b>1 hari</b></p>
 										</div>
@@ -53,7 +103,7 @@
 
 											<p>Pemilik <b>divanabilaa</b></p>
 
-											<p>Bayaran <b>IDR. 500.000-1.000.000</b></p>
+											<p>Bayaran <b>IDR. 500.000</b></p>
 
 											<p>Tenggat Waktu <b>7 hari</b></p>
 										</div>
@@ -69,7 +119,7 @@
 
 											<p>Pemilik <b>watermelon1999</b></p>
 
-											<p>Bayaran <b>IDR. 100.000-150.000</b></p>
+											<p>Bayaran <b>IDR. 100.000</b></p>
 
 											<p>Tenggat Waktu <b>2 hari</b></p>
 										</div>
@@ -85,7 +135,7 @@
 
 											<p>Pemilik <b>onisup</b></p>
 
-											<p>Bayaran <b>IDR. 100.000-150.000</b></p>
+											<p>Bayaran <b>IDR. 100.000</b></p>
 
 											<p>Tenggat Waktu <b>3 hari</b></p>
 										</div>
@@ -94,7 +144,62 @@
 							</ul>
 						</div>
 
-						<div class="col-sm-4">
+						<div class="col-sm-6">
+							<div class="title">
+								<h4>Pertanyaan</h4>
+
+								<a href="worker.html" class="more">Lainnya</a>
+							</div>
+
+							<ul class="project-list">
+									<li>
+										<div class="w-100 ">
+											<div class="d-flex justify-content-between mb-2" style="color:black">
+												<div class="d-flex">
+													<div class="image" style="background-image: url('https://www.gravatar.com/avatar/125b5695d974ac54d52c9b8f54ea8f86.jpg?s=115&d=monsterid')"></div>
+													<div>
+														<a href="#"><h4	style="margin:0px; color:black">Matematika</h4></a>
+														<h6>
+															<div class="d-none d-sm-inline mr-2">
+																Fadel Muhammad Irsyad
+															</div>
+															
+															<span>12 menit yang lalu</span>
+														</h6>
+													</div>
+												</div>
+												<div class="harga px-3" style="padding:5px; background-color:#EAF2FC; height:max-content; border-radius:20px">
+													<h5 class="mb-0" style="color:#9A8282">Rp 5.000</h5>
+												</div>
+											</div>
+											<a href="#">
+												<div class="q-title" style="color:black">
+													<h4>Jasa Translate Artikel Dokumen Dan Blog Dari Bahasa Inggris Ke Indonesia Manual Translation</h4>
+												</div>
+											</a>
+											<div class="ele d-flex justify-content-between">
+												<div class="like " style="border-radius:50%; background:#F5F5F5; padding:10px">
+													<i class="fas fa-thumbs-up" style="color:#818181"></i>
+												</div>
+												<div class="d-flex " >
+													<div class="jawab mr-2 d-flex justify-content-center align-items-center px-3" style="border-radius:20px; background:#F5F5F5;">
+														<i class="fa fa-comment mr-2" style="color:#818181" ></i>
+														<div style="color:#818181">
+															Jawab
+														</div>
+													</div>
+													<div class="bookmark" style="border-radius:50%; background:#F5F5F5; padding:10px 12px">
+														<i class="fa fa-bookmark" style="color:#818181"></i>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								
+							</ul>
+						</div>
+
+						<div class="col-sm-3">
 							<div class="title">
 								<h4>Jasa Terbaik</h4>
 
@@ -293,126 +398,6 @@
 								</li>
 
 							</ul>
-						</div>
-
-						<div class="col-sm-4">
-							<div class="title">
-								<h4>Aktifitas Pengguna</h4>
-
-								<a href="activity.html" class="more">Lainnya</a>
-							</div>
-
-							<div class="scroll-bar-wrap">
-								<div class="scroll-box">
-									<ul class="project-list">
-										<li>
-											<div class="d-flex">
-												<div class="image" style="background-image: url('https://www.gravatar.com/avatar/125b5695d974ac54d52c9b8f54ea8f86.jpg?s=115&d=monsterid')"></div>
-
-												<div class="desc">
-													<p><span><a href="#">onisup</a> memposting balasan baru dalam projek <a href="#">Jasa Virtual Assistant Web Research, Admin, Design, Copywriting</a>.</span></p>
-
-													<p class="mt-2"><span class="d-flex align-items-center"><i class="fas fa-clock mr-2"></i> 06/11/2020 21:23:01 WIB</span></p>
-												</div>
-											</div>
-										</li>
-
-										<li>
-											<div class="d-flex">
-												<div class="image" style="background-image: url('https://cdn.projects.co.id/upload/usr3c7811/202007105f07ad2d52e8d-thumb.jpg')"></div>
-
-												<div class="desc">
-													<p><span><a href="#">JoshuaNiagara09</a> memposting balasan baru dalam projek <a href="#">Membantu Input Data ke Excel</a>.</span></p>
-
-													<p class="mt-2"><span class="d-flex align-items-center"><i class="fas fa-clock mr-2"></i> 06/11/2020 21:22:56 WIB</span></p>
-												</div>
-											</div>
-										</li>
-
-										<li>
-											<div class="d-flex">
-												<div class="image" style="background-image: url('https://cdn.projects.co.id/upload/usrb27c1d/202007015efb79702043a-thumb.jpg')"></div>
-
-												<div class="desc">
-													<p><span><a href="#">herihehe</a> memposting balasan baru dalam projek <a href="#">Front end development dengan ReactJS</a>.</span></p>
-
-													<p class="mt-2"><span class="d-flex align-items-center"><i class="fas fa-clock mr-2"></i> 06/11/2020 21:22:19 WIB</span></p>
-												</div>
-											</div>
-										</li>
-
-										<li>
-											<div class="d-flex">
-												<div class="image" style="background-image: url('https://cdn.projects.co.id/upload/usrec621e/202010095f7fe11ebf79b-thumb.jpg')"></div>
-
-												<div class="desc">
-													<p><span><a href="#">izzalutfi23</a> memposting balasan baru dalam projek <a href="#">BUTUH JASA PEMBUATAN TUGAS PHP DENGAN BOOTSTRAP</a>.</span></p>
-
-													<p class="mt-2"><span class="d-flex align-items-center"><i class="fas fa-clock mr-2"></i> 06/11/2020 21:21:53 WIB</span></p>
-												</div>
-											</div>
-										</li>
-
-										<li>
-											<div class="d-flex">
-												<div class="image" style="background-image: url('https://cdn.projects.co.id/upload/usr0a5d1e/202010165f89a3297e58d-thumb.jpg')"></div>
-
-												<div class="desc">
-													<p><span><a href="#">Saidmhfd</a> memposting balasan baru dalam projek <a href="#">Penambahan Fitur Baru pada Website</a>.</span></p>
-
-													<p class="mt-2"><span class="d-flex align-items-center"><i class="fas fa-clock mr-2"></i> 06/11/2020 21:21:40 WIB</span></p>
-												</div>
-											</div>
-										</li>
-
-										<li>
-											<div class="d-flex">
-												<div class="image" style="background-image: url('https://cdn.projects.co.id/upload/usr46811e/202010275f984a6fa26c8-thumb.jpg')"></div>
-
-												<div class="desc">
-													<p><span><a href="#">Safari7</a> sedang menawar sebuah projek <a href="#">Data pembayaran relasi</a>.</span></p>
-
-													<p class="mt-2"><span class="d-flex align-items-center"><i class="fas fa-clock mr-2"></i> 06/11/2020 22:03:59 WIB</span></p>
-												</div>
-											</div>
-										</li>
-
-										<li>
-											<div class="d-flex">
-												<div class="image" style="background-image: url('https://www.gravatar.com/avatar/b447d856e3ed6cda4f30064b3302a9e0.jpg?s=115&d=monsterid')"></div>
-
-												<div class="desc">
-													<p><span><a href="#">Walawall</a> sedang menawar sebuah projek <a href="#">Butuh Admin Untuk Copy Paste 270 Kata KBBI</a>.</span></p>
-
-													<p class="mt-2"><span class="d-flex align-items-center"><i class="fas fa-clock mr-2"></i> 06/11/2020 22:03:52 WIB</span></p>
-												</div>
-											</div>
-										</li>
-
-										<li>
-											<div class="d-flex">
-												<div class="image" style="background-image: url('https://cdn.projects.co.id/upload/usrbb4511/20141226549cb54b152bd-thumb.jpg')"></div>
-
-												<div class="desc">
-													<p><span><a href="#">AhmadAzhariPohan</a> memposting balasan baru dalam projek <a href="#">Membuat 30 artikel 500kata-1500kata</a>.</span></p>
-
-													<p class="mt-2"><span class="d-flex align-items-center"><i class="fas fa-clock mr-2"></i> 06/11/2020 22:02:27 WIB</span></p>
-												</div>
-											</div>
-										</li>
-
-										<li>
-											<div class="d-flex">
-												<div class="image" style="background-image: url('https://cdn.projects.co.id/upload/usr6c8f1d/202007085f05409bc3024-thumb.jpg')"></div>
-
-												<div class="desc">
-													<p><span><a href="#">FarichatulChusna</a> memposting balasan baru dalam projek <a href="#">Dibutuhkan 10 tulisan ANALISIS/OPINI tentang SEJARAH & KEBUDAYAAN Nusantara</a>.</span></p>
-
-													<p class="mt-2"><span class="d-flex align-items-center"><i class="fas fa-clock mr-2"></i> 06/11/2020 21:57:11 WIB</span></p>
-												</div>
-											</div>
-										</li>
-									</ul>
 								</div>
 
 								<div class="cover-bar"></div>
